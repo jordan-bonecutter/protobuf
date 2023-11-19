@@ -2242,7 +2242,7 @@ func (g *Generator) generateMessage(message *Descriptor) {
 			// Generate the rest of this comment later,
 			// when we've computed any disambiguation.
 
-			dname := "is" + goTypeName + "_" + fname
+			dname := "Is" + goTypeName + "_" + fname
 			tag := `protobuf_oneof:"` + odp.GetName() + `"`
 			of := oneofField{
 				fieldCommon: fieldCommon{
